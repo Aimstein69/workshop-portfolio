@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: medium;
+}
+body {
+  padding-top: 15%;
+  padding-bottom: 30%;
+  max-height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #cf1adf, #066842, #ff00f2, #016924);
+  background-size: 300% 300%;
+  animation: gradient 9s ease infinite;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #00ff2a, #00c3ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Brush Script";
+}
+
+p {
+  font-size: 1.5em;
+  background-image: linear-gradient(to right, #00c3ff, #00ff2a);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Brush Script";
+}
+@keyframes animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
+  }
+}
+@keyframes animation2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
+  }
+}
+@keyframes animation3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 15%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
